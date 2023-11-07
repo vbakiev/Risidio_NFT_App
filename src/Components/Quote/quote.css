@@ -2,15 +2,33 @@
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    font-size: 30px;
+    font-size: 30.9px;
     font-style: italic;
     font-weight: 200;
-    padding-top: 120px;
-    padding-bottom: 150px;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .quote{
     max-width: 800px;
     align-items: center;
+}
+
+mark.red {
+    color:#ff1a1a;
+    background: none;
+    font-weight: 600;
+}
+
+mark.blue {
+    color:#33d6ff;
+    background: none;
+    font-weight: 600;
+}
+
+mark.yellow{
+    color:#e6b800;
+    background: none;
+    font-weight: 600;
 }

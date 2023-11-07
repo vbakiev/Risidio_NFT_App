@@ -8,13 +8,13 @@ import socials_linkedin from '../Images/socials_linkedin.svg'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className="footer-logo">
+        <div className='footer-logo'>
             <img src={risidio_logo} alt='Risidio Compant Logo'/>
         </div>
-        <div className="footer-copyright">
+        <div className='footer-copyright'>
             <p>@2023 Risidio NFT. ALl right reserved.</p>
         </div>
-        <ul className="footer-links">
+        <ul className='footer-links'>
             <li>Company</li>
             <li>About</li>
             <li>Contact</li>
@@ -24,8 +24,6 @@ const Footer = () => {
             <img src={socials_x} alt='X Link to Risidio Company account'></img>
             <img src={socials_linkedin} alt='LinkedIn Link to Risidio Company account'></img>
         </div>
-        
-            
     </div>
   )
 }
