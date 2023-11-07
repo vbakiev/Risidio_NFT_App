@@ -1,0 +1,42 @@
+*{
+    margin-bottom: -26px;
+    margin-top: -15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.navbar-pages{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 45px;
+    gap: 120px;
+    color: black;
+}
+
+.navbar-pages li{
+    cursor: pointer;
+}
+
+.navbar-cart{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-cart img{
+    height: 25%;
+    width: auto;
+}

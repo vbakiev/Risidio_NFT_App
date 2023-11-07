@@ -1,0 +1,29 @@
+.footer-socials img{
+    height: 70px;
+    width: 70px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    font-size: 25px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 100px;
+}
