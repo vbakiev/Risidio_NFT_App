@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nft-classes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    column-gap: 200px;
+    row-gap: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+} 

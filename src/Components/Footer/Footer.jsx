@@ -1,9 +1,9 @@
 import React from 'react'
 import './footer.css'
 import risidio_logo from '../Images/Risidio_logo.png'
-import socials_instagram from '../Images/socials_instagram.jpg'
-import socials_x from '..//Images/socials_x.jpg'
-import socials_linkedin from '../Images/socials_linkedin.svg'
+import socials_instagram from '../Images/socials_instagram.webp'
+import socials_x from '..//Images/socials_x.webp'
+import socials_linkedin from '../Images/socials_linkedin.webp'
 
 const Footer = () => {
   return (
@@ -21,8 +21,8 @@ const Footer = () => {
         </ul>
         <div className='footer-socials'>
             <img src={socials_instagram} alt='Instagram Link to Risidio Company account'></img>
-            <img src={socials_x} alt='X Link to Risidio Company account'></img>
             <img src={socials_linkedin} alt='LinkedIn Link to Risidio Company account'></img>
+            <img src={socials_x} alt='X Link to Risidio Company account'></img>
         </div>
     </div>
   )

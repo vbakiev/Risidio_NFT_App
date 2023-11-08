@@ -11,7 +11,7 @@ const Navbar = () => {
         <img src={risidio_logo} alt='Risidio Company Logo'/>
       </div>
        <ul className='navbar-pages'>
-          <li><Link to='/'>Main</Link></li>
+          <li><Link to='/'>Home</Link></li>
           <li><Link to='/game'>Game</Link></li>
           <li><Link to='/art'>Art</Link></li>
           <li><Link to='/music'>Music</Link></li>

@@ -1,3 +1,5 @@
+//Checkout/Cart Page
+
 import React from 'react'
 
 const Checkout = () => {
