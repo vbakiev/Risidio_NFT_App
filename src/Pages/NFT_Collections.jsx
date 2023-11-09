@@ -14,6 +14,7 @@ const NFT_Collections = (props) => {
       <div className="nft-classes">
             {nft_data.map((item, i)=>{
                 if(props.class === item.class){
+                    //console.log(props.class, item.class)
                     return <NFT key={i} id={item.id} name={item.name} image={item.image} price={item.price}/>
                 }
                 else{

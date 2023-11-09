@@ -1,5 +1,3 @@
-//Home Page
-
 import React from 'react'
 import Main_Page from '../Components/Main_Page_Content/Main_Page'
 import Quote from '../Components/Quote/Quote'
