@@ -9,17 +9,16 @@ const NFT_Specific_Page = (props) => {
     const {cartAdd} = useContext(Data_Context);
 
   return (
-    <div className='nft-specific'>
-      <div className="left">
-        <img src={item_var.image}/>
-        
-      </div>
-      <div className="right">
-        <h1>{item_var.name}</h1>
-        <p>{item_var.description}</p>
-        <button onClick={()=>{cartAdd(item_var.id)}}>Add to Cart</button>
-      </div>
-      
+    <div className="nft-specific-body">
+        <div className="left">
+          <img src={item_var.image}/>
+          
+        </div>
+        <div className="right">
+          <h1>{item_var.name}</h1>
+          <p>{item_var.description}</p>
+          <button onClick={()=>{cartAdd(item_var.id)}}>Add to Cart</button>
+        </div>
     </div>
   )
 }

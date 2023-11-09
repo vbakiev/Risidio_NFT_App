@@ -5,23 +5,28 @@ import cart_remove_image from '../Images/cart_remove_icon.webp'
 
 
 const Cart = () => {
-    const {nft_data, cartNfts, cartRemove} = useContext(Data_Context);
+    const {nft_data, cartNfts, cartRemove, cartTotal, cartTotalItem} = useContext(Data_Context);
   return (
-    <div className='cart-items'>    
-        {nft_data.map((e)=> {
-            if(cartNfts[e.id] > 0){
-                return <div>
-                    <div className='cart-items-layout'>
-                    <img className='cart-items-image' src={e.image}  alt='NFT item image' />
-                    <p>{e.name}</p>
-                    <p>£{e.price}</p>
-                    {/* Add on click event > cartRemove function with the NFT's id*/}
-                    <img className='cart-items-remove' src={cart_remove_image} onClick={()=> {cartRemove(e.id)}} alt='Remove item from cart clickable image'></img>
+    <div className='cart'>
+        <div className='cart-nfts'>    
+            {nft_data.map((e)=> {
+                if(cartNfts[e.id] > 0){
+                    return <div>
+                        <div className='cart-nfts-layout'>
+                        <img className='cart-nfts-image' src={e.image}  alt='NFT image' />
+                        <p>{e.name}</p>
+                        <p>£{e.price}</p>
+                        {/* Add on click event > cartRemove function with the NFT's id*/}
+                        <div>
+                        <img className='cart-remove' src={cart_remove_image} onClick={()=> {cartRemove(e.id)}} alt='Remove item from cart clickable image'></img>
+                        <p>Remove</p>
+                        </div>
+                    </div>
+                    <hr />
                 </div>
-                <hr />
-            </div>
-            }
-        })}
+                }
+            })}
+        </div>
     </div>
   )
 }

@@ -57,3 +57,11 @@ a:link{
 a:visited{
     color: inherit;
 }
+
+.navbar-hr{
+    height: 5px;
+    background: black;
+    border: 0;
+    width: 100%;
+    margin: auto;
+}

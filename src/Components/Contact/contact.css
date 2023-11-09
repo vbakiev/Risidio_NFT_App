@@ -8,18 +8,9 @@
     gap: 30px;
 }
 
-.contact button{
-    width: 7%;
-    height: 5.5%;
-    font-size: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
 .contact img{
-    width: 27%;
-    height: 37%;
+    width: 550px;
+    height: auto;
     border-radius: 50px;
 }
 
@@ -27,6 +18,7 @@
     color: white;
     font-size: 44px;
     font-weight: 600;
+    padding: 20px;
 }
 
  
@@ -37,4 +29,27 @@ input{
     margin-right: 20px;
     border-radius: 12px;
     padding: 10px 10px;
+    outline: none;
+}
+
+.contact button{
+    width: 270px;
+    height: 60px;
+    border: none;
+    background: #ad33ff;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.contact button:hover{
+    transition-duration: 0.5s;
+    background-color: #cc80ff;
+}
+
+.contact button:active{
+    box-shadow: 0 5px black;
+    transform: translateY(25px);
 }

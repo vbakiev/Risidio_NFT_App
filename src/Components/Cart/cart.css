@@ -1,26 +1,24 @@
-.cart-items{
+.cart-nfts{
     background-image: linear-gradient(to right, #f4516e, #e16ec2, #9d97f8, #39b7ff, #18cbe5);
-    height: 100%;
+    height: auto;
+    min-height: 75vh;
 }
 
-.cart-items hr{
-    height: 3px;
+.cart-nfts hr{
+    height: 1px;
     background: white;
     border: 0;
     width: 70%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 
-.cart-items p{
+.cart-nfts p{
     max-width: 120px;
     text-align: center;
 }
 
-.cart-items-layout{
-    padding-top: 40px;
+.cart-nfts-layout{
+    padding-top: 60px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
@@ -28,19 +26,37 @@
     align-items: center;
 }
 
-.cart-items-layout p{
-    font-size: 22px;
+.cart-nfts-layout p{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
 }
 
-.cart-items-image{
+.cart-nfts-image{
     width: 7%;
     height: 20%;
 }
 
-.cart-items-remove{
-    width: 4%;
+.cart-remove{
+    width: 45%;
     height: 20%;
+    cursor: pointer;
 }
+
+.cart-remove:hover{
+    animation: shake 0.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+
 
 /*
 .cart-items-display{

@@ -12,7 +12,6 @@ const Main_Page = () => {
             </div>
             <div className='right-side'>
                 <img src={main_img} className='header-img'/>
-                <p>Example Text</p>
             </div>
     </div>
   )

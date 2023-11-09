@@ -1,14 +1,20 @@
+@media (max-width: 1050px) {
+    .main {
+      flex-direction: column;
+    }
+  }
+
 .main{
+    min-height: 70vh;
+    height: 100%;
     background-color: #1F2937;
-    color: white;
     display: flex;
-    justify-content: space-between;
-    padding-top: 70px;
-    padding-left: 350px;
-    padding-right: 350px;
-    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 100px;
     margin: 0;
-    gap:  60px;
+    padding: 20px;
 }
 
 .main .left-side{
@@ -16,6 +22,11 @@
     flex-flow: column;
     align-items: flex-start;
     gap: 100px;
+}
+
+.left-side p{
+    max-width: 700px;
+    font-size: 23px;
 }
 
 .main h2{
@@ -29,19 +40,31 @@
 .right-side{
     display: flex;
     align-items: center;
-    gap: 100px;
 }
-
-.right-side img{
-    width: 300px;
-    height: 300px;
-}
-
 
 .main img{
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 550px;
+}
+
+.left-side button{
+    width: 300px;
+    height: 70px;
+    border: none;
+    background: #4d79ff;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.left-side button:hover{
+    transition-duration: 0.5s;
+    background-color: #809fff;
+}
+
+.left-side button:active{
+    box-shadow: 0 5px black;
+    transform: translateY(25px);
 }

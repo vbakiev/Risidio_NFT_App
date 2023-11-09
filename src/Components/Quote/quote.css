@@ -1,13 +1,18 @@
+/*
+background: linear-gradient(180deg, rgba(229,231,235,1) 1%, rgba(229,231,235,1) 41%, rgba(229,231,235,1) 61%, rgba(229,231,235,1) 74%, rgba(230,100,101,1) 100%);
+*/
+
 .quote-body{
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color:  #E5E7EB;
     font-size: 30.9px;
     font-style: italic;
     font-weight: 200;
     text-align: center;
+    padding: 20px;
 }
 
 .quote{
