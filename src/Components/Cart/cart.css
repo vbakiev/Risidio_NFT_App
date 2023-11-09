@@ -13,7 +13,7 @@
 }
 
 .cart-nfts p{
-    max-width: 120px;
+    max-width: 110px;
     text-align: center;
 }
 
@@ -26,6 +26,13 @@
     align-items: center;
 }
 
+@media (max-width: 1450px) {
+    .cart-nfts-layout{
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
 .cart-nfts-layout p{
     font-size: 25px;
     font-weight: 600;
@@ -33,13 +40,13 @@
 }
 
 .cart-nfts-image{
-    width: 7%;
-    height: 20%;
+    width: 200px;
+    height: 200px;
 }
 
 .cart-remove{
-    width: 45%;
-    height: 20%;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
 }
 
@@ -57,18 +64,6 @@
   }
 
 
-
-/*
-.cart-items-display{
-    display: flex;
-    justify-content:center;
-    gap: 320px;
-    font-size: 22px;
-    font-weight: 600;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-*/
 
 
 

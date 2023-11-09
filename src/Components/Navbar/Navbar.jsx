@@ -13,10 +13,10 @@ const Navbar = () => {
       </div>
        <ul className='navbar-pages'>
           <li><Link to='/'>Home</Link></li>
-          <li><Link to='/game'>Game</Link></li>
-          <li><Link to='/art'>Art</Link></li>
-          <li><Link to='/music'>Music</Link></li>
-          <li><Link to='/food'>Food</Link></li>
+          <li><Link to='/art'>Motor Majesty</Link></li>
+          <li><Link to='/music'>Melody Beasts</Link></li>
+          <li><Link to='/food'>Joyful Juicies</Link></li>
+          <li><Link to='/game'>Multiverse Player</Link></li>
        </ul>
       <div className='navbar-cart'>
         <Link className='cart-icon' to='/checkout'><img src={cart_logo} alt='Cart Logo'/></Link>

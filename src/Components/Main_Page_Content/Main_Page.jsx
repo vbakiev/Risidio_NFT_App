@@ -1,17 +1,18 @@
 import React from 'react'
 import './main_page.css'
-import main_img from '../Images/NFT-Player/NFT_Multiverse.PNG'
+import main_img from '../Images/Cars/Ferrari.jfif'
+import { Link } from 'react-router-dom'
 
 const Main_Page = () => {
   return (
       <div className='main'>
             <div className='left-side'>
-                <h2>Explore the Multiverse collection</h2>
-                <p>Introducing the "NFT Multiverse" collection, a diverse and enchanting ensemble of digital player models, each offering a unique and captivating visual experience. From the fiery intensity of the "Inferno Gamer" to the cosmic wonder of the "Stellar Nebula Guardian," and the playful expressiveness of the "Emoji Enigma," this collection spans a rich spectrum of artistic and thematic styles, catering to every gaming enthusiast and collector's taste. Explore a world where art and gaming converge, and own a piece of the NFT Multiverse to express your individuality and style in the virtual realm.</p>
-                <button>Explore</button>
+                <h2>The Motor Majesty Collection</h2>
+                <p>Introducing "MotorMajesty NFT Collection," a digital showcase celebrating the timeless allure of iconic automobiles. Each NFT within this collection is a pixelated masterpiece, a tribute to the golden era of automotive design and innovation. From the sleek lines of vintage Mustangs to the elegant curves of classic Mercedes, MotorMajesty encapsulates the spirit of automotive excellence. As proud owners of MotorMajesty NFTs, you're not just acquiring digital assets; you're gaining access to a community of enthusiasts who appreciate the artistry and legacy of iconic vehicles. Connect, share stories, and revel in the nostalgia that this diverse collection effortlessly evokes.</p>
+                <Link to="/art"><button>Explore</button></Link>
             </div>
             <div className='right-side'>
-                <img src={main_img} className='header-img'/>
+                <Link to="/art"><img src={main_img} className='header-img'/></Link>
             </div>
     </div>
   )

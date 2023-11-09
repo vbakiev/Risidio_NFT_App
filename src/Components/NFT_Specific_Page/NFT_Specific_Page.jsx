@@ -16,7 +16,8 @@ const NFT_Specific_Page = (props) => {
         </div>
         <div className="right">
           <h1>{item_var.name}</h1>
-          <p>{item_var.description}</p>
+          <p className='right-p'>{item_var.description}</p>
+          <p>£ {item_var.price}</p>
           <button onClick={()=>{cartAdd(item_var.id)}}>Add to Cart</button>
         </div>
     </div>

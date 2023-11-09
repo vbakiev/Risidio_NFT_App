@@ -20,9 +20,15 @@ const Footer = () => {
             <li>Contact</li>
         </ul>
         <div className='footer-socials'>
+            <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
             <img src={socials_instagram} alt='Instagram Link to Risidio Company account'></img>
+            </a>
+            <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
             <img src={socials_linkedin} alt='LinkedIn Link to Risidio Company account'></img>
+            </a>
+            <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
             <img src={socials_x} alt='X Link to Risidio Company account'></img>
+            </a>
         </div>
     </div>
   )

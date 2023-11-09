@@ -1,10 +1,11 @@
 import React from 'react'
 import './main_page_display.css'
 
-import one_img from '../Images/Templates/one.svg'
-import two_img from '../Images/Templates/two.svg'
-import three_img from '../Images/Templates/three.svg'
-import four_img from '../Images/Templates/four.svg'
+import one_img from '../Images/Cars/BMW.jfif'
+import two_img from '../Images/Fruits/Pineapple.jfif'
+import three_img from '../Images/Music_Animals/Rabbit.jfif'
+import four_img from '../Images/NFT-Player/Chroma_Champion.PNG'
+import { Link } from 'react-router-dom'
 
 
 const Main_Page_Display = () => {
@@ -16,20 +17,20 @@ const Main_Page_Display = () => {
       </div>
       <div className='display'>
         <div className='collection'>
-              <img src={one_img} alt=''/>
-              <div className='text'>Example Text</div>
+              <Link to='/art'><img src={one_img} alt=''/></Link>
+              <div className='text'>Motor Majesty</div>
           </div>
           <div className='collection'>
-              <img src={two_img}  alt=''/>
-              <div className='text'>Example Text</div>
+              <Link to='/food'><img src={two_img}  alt=''/></Link>
+              <div className='text'>Joyful Juicies</div>
           </div>
           <div className='collection'>
-              <img src={three_img}  alt=''/>
-              <div className='text'>Example Text</div>
+              <Link to='/music'><img src={three_img}  alt=''/></Link>
+              <div className='text'>Melody Beasts</div>
           </div>
           <div className='collection'>
-              <img src={four_img}  alt=''/>
-              <div className='text'>Example Text</div>
+              <Link to='/game'><img src={four_img}  alt=''/></Link>
+              <div className='text'>Multiverse</div>
           </div>
       </div>
     </div>
