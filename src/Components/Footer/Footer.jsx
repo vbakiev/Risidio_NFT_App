@@ -15,18 +15,24 @@ const Footer = () => {
             <p>@2023 Risidio NFT. ALl right reserved.</p>
         </div>
         <ul className='footer-links'>
-            <li>Company</li>
-            <li>About</li>
-            <li>Contact</li>
+            <a href='https://risidio.com/' target='_blank' rel='noopener noreferrer'>
+                <li>Company</li>
+            </a>
+            <a href='https://risidio.com/about' target='_blank' rel='noopener noreferrer'>
+                <li>About</li>
+            </a>
+            <a href='https://risidio.com/' target='_blank' rel='noopener noreferrer'>
+                <li>Contact</li>
+            </a>
         </ul>
         <div className='footer-socials'>
             <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
             <img src={socials_instagram} alt='Instagram Link to Risidio Company account'></img>
             </a>
-            <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.linkedin.com/company/risidio/' target='_blank' rel='noopener noreferrer'>
             <img src={socials_linkedin} alt='LinkedIn Link to Risidio Company account'></img>
             </a>
-            <a href='https://www.instagram.com/risidio_official/?hl=en-gb' target='_blank' rel='noopener noreferrer'>
+            <a href='https://twitter.com/Risidio1' target='_blank' rel='noopener noreferrer'>
             <img src={socials_x} alt='X Link to Risidio Company account'></img>
             </a>
         </div>

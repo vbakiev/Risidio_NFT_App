@@ -20,10 +20,10 @@
 }
 
 .nft-specific-body img{
-    min-height: 600px;
-    min-width: 600px;
-    height: auto;
-    width: auto;
+    min-height: 500px;
+    min-width: 500px;
+    height: 850px;
+    width: 850px;
 }
 
 .nft-specific-body .right{

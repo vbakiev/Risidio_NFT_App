@@ -5,7 +5,9 @@ import cart_remove_image from '../Images/cart_remove_icon.webp'
 
 
 const Cart = () => {
+
     const {nft_data, cartNfts, cartRemove, cartTotal, cartTotalItem} = useContext(Data_Context);
+    
   return (
     <div className='cart'>
         <div className='cart-nfts'>    

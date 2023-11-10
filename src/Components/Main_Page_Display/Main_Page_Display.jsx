@@ -30,7 +30,7 @@ const Main_Page_Display = () => {
           </div>
           <div className='collection'>
               <Link to='/game'><img src={four_img}  alt=''/></Link>
-              <div className='text'>Multiverse</div>
+              <div className='text'>Multiverse Player</div>
           </div>
       </div>
     </div>
