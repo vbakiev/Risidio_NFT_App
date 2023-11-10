@@ -12,3 +12,5 @@ Welcome to my pseudo NFT Marketplace Web App! This web application is built usin
 <li>JavaScript</li>
 <li>React: Components, Router, Context, State </li>
 <li>HTML and CSS</li>
+
+<h2>Netlify Link: https://creative-clafoutis-9eb4ef.netlify.app/</h2>
