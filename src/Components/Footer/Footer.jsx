@@ -12,7 +12,7 @@ const Footer = () => {
             <img src={risidio_logo} alt='Risidio Compant Logo'/>
         </div>
         <div className='footer-copyright'>
-            <p>@2023 Risidio NFT. ALl right reserved.</p>
+            <p>@2023 Risidio NFT. All right reserved.</p>
         </div>
         <ul className='footer-links'>
             <a href='https://risidio.com/' target='_blank' rel='noopener noreferrer'>

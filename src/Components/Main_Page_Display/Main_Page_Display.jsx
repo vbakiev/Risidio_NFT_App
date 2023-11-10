@@ -17,19 +17,19 @@ const Main_Page_Display = () => {
       </div>
       <div className='display'>
         <div className='collection'>
-              <Link to='/art'><img src={one_img} alt=''/></Link>
+              <Link to='/art'><img src={one_img} alt='An image of the Motor Majesty NFT Collection with a link'/></Link>
               <div className='text'>Motor Majesty</div>
           </div>
           <div className='collection'>
-              <Link to='/food'><img src={two_img}  alt=''/></Link>
+              <Link to='/food'><img src={two_img}  alt='An image of the Joyful Juicies NFT Collection with a link'/></Link>
               <div className='text'>Joyful Juicies</div>
           </div>
           <div className='collection'>
-              <Link to='/music'><img src={three_img}  alt=''/></Link>
+              <Link to='/music'><img src={three_img}  alt='An image of the Melody Beasts NFT Collection with a link'/></Link>
               <div className='text'>Melody Beasts</div>
           </div>
           <div className='collection'>
-              <Link to='/game'><img src={four_img}  alt=''/></Link>
+              <Link to='/game'><img src={four_img}  alt='An image of the Multiverse Player NFT Collection with a link'/></Link>
               <div className='text'>Multiverse Player</div>
           </div>
       </div>

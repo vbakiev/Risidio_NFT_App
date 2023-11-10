@@ -1,7 +1,7 @@
 .cart-nfts{
     background-image: linear-gradient(to right, #f4516e, #e16ec2, #9d97f8, #39b7ff, #18cbe5);
     height: auto;
-    min-height: 75vh;
+    min-height: 60vh;
 }
 
 .cart-nfts hr{
